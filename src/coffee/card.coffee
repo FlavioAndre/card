@@ -28,6 +28,7 @@ class Card
                 '<div class="c">C</div>' +
                 '<div class="b">B</div>' +
               '</div>' +
+              '<div class="jp-card-logo jp-card-hipercard">Hipercard</div>' +
               '<div class="jp-card-lower">' +
                   '<div class="jp-card-shiny"></div>' +
                   '<div class="jp-card-cvc jp-card-display">{{cvc}}</div>' +
@@ -58,7 +59,8 @@ class Card
     'jp-card-unionpay',
     'jp-card-visa',
     'jp-card-visaelectron',
-    'jp-card-elo'
+    'jp-card-elo',
+    'jp-card-hipercard'
   ]
   defaults:
     formatting: true
